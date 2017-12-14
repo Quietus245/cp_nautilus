@@ -5818,3 +5818,872 @@ Level flags = 0
 Total triangle count: 33617
 Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
 2 minutes, 59 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (676952 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3310.00, 579.00, 624.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4582 texinfos to 2563
+Reduced 64 texdatas to 52 (1814 bytes to 1458)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+8 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4700 portalclusters
+15339 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1175742 visible clusters (10.36%)
+Total clusters visible: 11344718
+Average clusters visible: 2413
+Building PAS...
+Average clusters audible: 4487
+visdatasize:4991304  compressed from 5564800
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+12410 faces
+1 degenerate faces
+3198759 square feet [460621312.00 square inches]
+83 Displacements
+51325 Square Feet [7390815.50 Square Inches]
+12409 patches before subdivision
+141551 patches after subdivision
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18725982, max 804
+transfer lists: 142.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(270114, 331201, 242062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(71113, 78911, 55914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20096, 21059, 14452)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5879, 5857, 3923)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1769, 1687, 1104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(544, 496, 318)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 149, 94)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(55, 45, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(18, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0679 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1778/8192        21336/98304    (21.7%) 
+brushsides           13788/65536      110304/524288   (21.0%) 
+planes                9872/65536      197440/1310720  (15.1%) 
+vertexes             20063/65536      240756/786432   (30.6%) 
+nodes                 8738/65536      279616/2097152  (13.3%) 
+texinfos              2563/12288      184536/884736   (20.9%) 
+texdata                 52/2048         1664/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                12410/65536      694960/3670016  (18.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5585/65536      312760/3670016  ( 8.5%) 
+leaves                8778/65536      280896/2097152  (13.4%) 
+leaffaces            14621/65536       29242/131072   (22.3%) 
+leafbrushes           6244/65536       12488/131072   ( 9.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            80875/512000     323500/2048000  (15.8%) 
+edges                47191/256000     188764/1024000  (18.4%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1153/32768       11530/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18675/65536       37350/131072   (28.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                22/512          7744/180224   ( 4.3%) 
+LDR lightdata         [variable]     4617880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     4991304/16777216 (29.8%) 
+entdata               [variable]       90317/393216   (23.0%) 
+LDR ambient table     8778/65536       35112/262144   (13.4%) 
+HDR ambient table     8778/65536       35112/262144   (13.4%) 
+LDR leaf ambient     46953/65536     1314684/1835008  (71.6%) 
+HDR leaf ambient      8778/65536      245784/1835008  (13.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14780    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      676952/4194304  (16.1%) 
+physics terrain       [variable]       18429/1048576  ( 1.8%) 
+
+Level flags = 0
+
+Total triangle count: 33560
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+2 minutes, 49 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (676696 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3310.00, 579.00, 624.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4612 texinfos to 2591
+Reduced 64 texdatas to 52 (1814 bytes to 1458)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+7 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4662 portalclusters
+15330 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1126018 visible clusters (10.03%)
+Total clusters visible: 11230640
+Average clusters visible: 2408
+Building PAS...
+Average clusters audible: 4450
+visdatasize:4931281  compressed from 5445216
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+12343 faces
+1 degenerate faces
+3197578 square feet [460451328.00 square inches]
+83 Displacements
+51168 Square Feet [7368270.50 Square Inches]
+12342 patches before subdivision
+142876 patches after subdivision
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18414376, max 804
+transfer lists: 140.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(266656, 325830, 238305)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69974, 77525, 54949)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(19724, 20645, 14183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5761, 5737, 3847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1733, 1653, 1083)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(533, 486, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(168, 146, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(54, 44, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(18, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1778/8192        21336/98304    (21.7%) 
+brushsides           13741/65536      109928/524288   (21.0%) 
+planes                9722/65536      194440/1310720  (14.8%) 
+vertexes             19963/65536      239556/786432   (30.5%) 
+nodes                 8658/65536      277056/2097152  (13.2%) 
+texinfos              2591/12288      186552/884736   (21.1%) 
+texdata                 52/2048         1664/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                12343/65536      691208/3670016  (18.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5608/65536      314048/3670016  ( 8.6%) 
+leaves                8698/65536      278336/2097152  (13.3%) 
+leaffaces            14502/65536       29004/131072   (22.1%) 
+leafbrushes           6069/65536       12138/131072   ( 9.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            80552/512000     322208/2048000  (15.7%) 
+edges                47001/256000     188004/1024000  (18.4%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1129/32768       11290/327680   ( 3.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18153/65536       36306/131072   (27.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                22/512          7744/180224   ( 4.3%) 
+LDR lightdata         [variable]     4648304/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     4931281/16777216 (29.4%) 
+entdata               [variable]       90317/393216   (23.0%) 
+LDR ambient table     8698/65536       34792/262144   (13.3%) 
+HDR ambient table     8698/65536       34792/262144   (13.3%) 
+LDR leaf ambient     47040/65536     1317120/1835008  (71.8%) 
+HDR leaf ambient      8698/65536      243544/1835008  (13.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14786    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      676696/4194304  (16.1%) 
+physics terrain       [variable]       21439/1048576  ( 2.0%) 
+
+Level flags = 0
+
+Total triangle count: 33278
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+3 minutes, 8 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (680656 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3310.00, 579.00, 624.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4635 texinfos to 2598
+Reduced 64 texdatas to 51 (1814 bytes to 1432)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+7 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4684 portalclusters
+15382 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1164727 visible clusters (10.29%)
+Total clusters visible: 11318767
+Average clusters visible: 2416
+Building PAS...
+Average clusters audible: 4474
+visdatasize:4965472  compressed from 5545856
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+25 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+12451 faces
+1 degenerate faces
+3217408 square feet [463306816.00 square inches]
+83 Displacements
+51168 Square Feet [7368270.50 Square Inches]
+12450 patches before subdivision
+144636 patches after subdivision
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18571314, max 799
+transfer lists: 141.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(270258, 334584, 245540)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(71107, 79718, 56889)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20099, 21361, 14799)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5878, 5943, 4024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1770, 1716, 1137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(545, 504, 328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 151, 97)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(55, 46, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(18, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0951 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1789/8192        21468/98304    (21.8%) 
+brushsides           13814/65536      110512/524288   (21.1%) 
+planes                9704/65536      194080/1310720  (14.8%) 
+vertexes             20113/65536      241356/786432   (30.7%) 
+nodes                 8731/65536      279392/2097152  (13.3%) 
+texinfos              2598/12288      187056/884736   (21.1%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                12451/65536      697256/3670016  (19.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5628/65536      315168/3670016  ( 8.6%) 
+leaves                8771/65536      280672/2097152  (13.4%) 
+leaffaces            14623/65536       29246/131072   (22.3%) 
+leafbrushes           6146/65536       12292/131072   ( 9.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            81234/512000     324936/2048000  (15.9%) 
+edges                47395/256000     189580/1024000  (18.5%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1163/32768       11630/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18831/65536       37662/131072   (28.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                22/512          7744/180224   ( 4.3%) 
+LDR lightdata         [variable]     4692840/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     4965472/16777216 (29.6%) 
+entdata               [variable]       90317/393216   (23.0%) 
+LDR ambient table     8771/65536       35084/262144   (13.4%) 
+HDR ambient table     8771/65536       35084/262144   (13.4%) 
+LDR leaf ambient     47414/65536     1327592/1835008  (72.3%) 
+HDR leaf ambient      8771/65536      245588/1835008  (13.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14888    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      680656/4194304  (16.2%) 
+physics terrain       [variable]       21439/1048576  ( 2.0%) 
+
+Level flags = 0
+
+Total triangle count: 33663
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+3 minutes, 5 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (706608 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3310.00, 579.00, 624.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4915 texinfos to 2807
+Reduced 64 texdatas to 52 (1814 bytes to 1466)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+7 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4837 portalclusters
+15801 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1250020 visible clusters (10.49%)
+Total clusters visible: 11921874
+Average clusters visible: 2464
+Building PAS...
+Average clusters audible: 4617
+visdatasize:5279874  compressed from 5881792
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+27 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+13059 faces
+1 degenerate faces
+3256983 square feet [469005632.00 square inches]
+83 Displacements
+51168 Square Feet [7368270.50 Square Inches]
+13058 patches before subdivision
+150810 patches after subdivision
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19848580, max 813
+transfer lists: 151.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(267385, 327584, 238468)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(70818, 78277, 55210)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20230, 21224, 14520)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5981, 5991, 4001)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1818, 1751, 1143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(565, 521, 334)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(179, 158, 100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(58, 49, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(19, 15, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0968 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1861/8192        22332/98304    (22.7%) 
+brushsides           14393/65536      115144/524288   (22.0%) 
+planes                9956/65536      199120/1310720  (15.2%) 
+vertexes             20914/65536      250968/786432   (31.9%) 
+nodes                 9023/65536      288736/2097152  (13.8%) 
+texinfos              2807/12288      202104/884736   (22.8%) 
+texdata                 52/2048         1664/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                13059/65536      731304/3670016  (19.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5897/65536      330232/3670016  ( 9.0%) 
+leaves                9063/65536      290016/2097152  (13.8%) 
+leaffaces            15339/65536       30678/131072   (23.4%) 
+leafbrushes           6386/65536       12772/131072   ( 9.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            85101/512000     340404/2048000  (16.6%) 
+edges                49595/256000     198380/1024000  (19.4%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1210/32768       12100/327680   ( 3.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19464/65536       38928/131072   (29.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                22/512          7744/180224   ( 4.3%) 
+LDR lightdata         [variable]     4947528/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     5279874/16777216 (31.5%) 
+entdata               [variable]       90317/393216   (23.0%) 
+LDR ambient table     9063/65536       36252/262144   (13.8%) 
+HDR ambient table     9063/65536       36252/262144   (13.8%) 
+LDR leaf ambient     49036/65536     1373008/1835008  (74.8%) 
+HDR leaf ambient      9063/65536      253764/1835008  (13.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14766    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      706608/4194304  (16.8%) 
+physics terrain       [variable]       21439/1048576  ( 2.0%) 
+
+Level flags = 0
+
+Total triangle count: 35233
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+3 minutes, 15 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (711704 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3310.00, 579.00, 624.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4945 texinfos to 2833
+Reduced 64 texdatas to 52 (1814 bytes to 1466)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+7 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4889 portalclusters
+16010 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1305089 visible clusters (10.66%)
+Total clusters visible: 12237553
+Average clusters visible: 2503
+Building PAS...
+Average clusters audible: 4670
+visdatasize:5366115  compressed from 6023248
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+27 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+13217 faces
+1 degenerate faces
+3257548 square feet [469086912.00 square inches]
+83 Displacements
+51168 Square Feet [7368270.50 Square Inches]
+13216 patches before subdivision
+151242 patches after subdivision
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 20046988, max 813
+transfer lists: 152.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(272783, 333643, 242848)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(72410, 80103, 56547)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20609, 21670, 14852)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6080, 6109, 4090)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1844, 1782, 1167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(572, 529, 340)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(181, 160, 101)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(59, 49, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(19, 15, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0683 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1874/8192        22488/98304    (22.9%) 
+brushsides           14471/65536      115768/524288   (22.1%) 
+planes                9976/65536      199520/1310720  (15.2%) 
+vertexes             21153/65536      253836/786432   (32.3%) 
+nodes                 9101/65536      291232/2097152  (13.9%) 
+texinfos              2833/12288      203976/884736   (23.1%) 
+texdata                 52/2048         1664/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                13217/65536      740152/3670016  (20.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5959/65536      333704/3670016  ( 9.1%) 
+leaves                9141/65536      292512/2097152  (13.9%) 
+leaffaces            15532/65536       31064/131072   (23.7%) 
+leafbrushes           6430/65536       12860/131072   ( 9.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            86192/512000     344768/2048000  (16.8%) 
+edges                50175/256000     200700/1024000  (19.6%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1234/32768       12340/327680   ( 3.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19863/65536       39726/131072   (30.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                22/512          7744/180224   ( 4.3%) 
+LDR lightdata         [variable]     4957884/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     5366115/16777216 (32.0%) 
+entdata               [variable]       90320/393216   (23.0%) 
+LDR ambient table     9141/65536       36564/262144   (13.9%) 
+HDR ambient table     9141/65536       36564/262144   (13.9%) 
+LDR leaf ambient     49496/65536     1385888/1835008  (75.5%) 
+HDR leaf ambient      9141/65536      255948/1835008  (13.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14758    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      711704/4194304  (17.0%) 
+physics terrain       [variable]       21439/1048576  ( 2.0%) 
+
+Level flags = 0
+
+Total triangle count: 35760
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+3 minutes, 14 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (711752 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 4944 texinfos to 2832
+Reduced 63 texdatas to 51 (1792 bytes to 1444)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 5031, actual size 3745
+7 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+4893 portalclusters
+16016 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1307026 visible clusters (10.67%)
+Total clusters visible: 12254638
+Average clusters visible: 2504
+Building PAS...
+Average clusters audible: 4674
+visdatasize:5401111  compressed from 6028176
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+13220 faces
+1 degenerate faces
+3257443 square feet [469071808.00 square inches]
+83 Displacements
+51168 Square Feet [7368270.50 Square Inches]
+13219 patches before subdivision
+151235 patches after subdivision
+122 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 20057090, max 813
+transfer lists: 153.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(282844, 344781, 250496)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(74948, 83031, 58529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(21294, 22477, 15395)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6266, 6332, 4238)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1896, 1845, 1208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(587, 547, 352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(185, 165, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(60, 51, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(20, 16, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0673 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  39/1024         1872/49152    ( 3.8%) 
+brushes               1874/8192        22488/98304    (22.9%) 
+brushsides           14471/65536      115768/524288   (22.1%) 
+planes                9976/65536      199520/1310720  (15.2%) 
+vertexes             21165/65536      253980/786432   (32.3%) 
+nodes                 9118/65536      291776/2097152  (13.9%) 
+texinfos              2832/12288      203904/884736   (23.0%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos               83/0           14608/0        ( 0.0%) 
+disp_verts            6723/0          134460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      140120/0          140120/0        ( 0.0%) 
+faces                13220/65536      740320/3670016  (20.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5960/65536      333760/3670016  ( 9.1%) 
+leaves                9158/65536      293056/2097152  (14.0%) 
+leaffaces            15542/65536       31084/131072   (23.7%) 
+leafbrushes           6447/65536       12894/131072   ( 9.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            86197/512000     344788/2048000  (16.8%) 
+edges                50174/256000     200696/1024000  (19.6%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1229/32768       12290/327680   ( 3.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19797/65536       39594/131072   (30.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                21/512          7392/180224   ( 4.1%) 
+LDR lightdata         [variable]     4954872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     5401111/16777216 (32.2%) 
+entdata               [variable]       91946/393216   (23.4%) 
+LDR ambient table     9158/65536       36632/262144   (14.0%) 
+HDR ambient table     9158/65536       36632/262144   (14.0%) 
+LDR leaf ambient     49514/65536     1386392/1835008  (75.6%) 
+HDR leaf ambient      9158/65536      256424/1835008  (14.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14830    ( 0.0%) 
+pakfile               [variable]        3745/0        ( 0.0%) 
+physics               [variable]      711752/4194304  (17.0%) 
+physics terrain       [variable]       21439/1048576  ( 2.0%) 
+
+Level flags = 0
+
+Total triangle count: 35755
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+3 minutes, 8 seconds elapsed
