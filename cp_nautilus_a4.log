@@ -8007,3 +8007,3013 @@ Level flags = 0
 Total triangle count: 39703
 Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
 6 minutes, 30 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (2580.00 -660.00 279.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (763614 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5262 texinfos to 3147
+Reduced 81 texdatas to 66 (2346 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7101, actual size 5279
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (951.00 -442.00 372.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (764350 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5267 texinfos to 3147
+Reduced 81 texdatas to 66 (2346 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7101, actual size 5279
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (4176.00 -888.00 280.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (765382 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5257 texinfos to 3139
+Reduced 81 texdatas to 66 (2346 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7101, actual size 5279
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (1828.00 648.00 276.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (765742 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5259 texinfos to 3140
+Reduced 81 texdatas to 66 (2346 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7101, actual size 5279
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (2216.00 592.00 204.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 68.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (766822 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5265 texinfos to 3140
+Reduced 81 texdatas to 66 (2346 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7101, actual size 5279
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (769258 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5270 texinfos to 3114
+Reduced 82 texdatas to 66 (2398 bytes to 1869)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7550, actual size 5594
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771006 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5270 texinfos to 3112
+Reduced 82 texdatas to 65 (2467 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8113, actual size 6023
+7 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (771758 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5271 texinfos to 3112
+Reduced 82 texdatas to 65 (2467 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8113, actual size 6023
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (2580.00 -660.00 279.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (771774 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5271 texinfos to 3110
+Reduced 82 texdatas to 65 (2467 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8113, actual size 6023
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771710 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3110
+Reduced 82 texdatas to 65 (2467 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8113, actual size 6023
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (772430 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3110
+Reduced 82 texdatas to 65 (2467 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8113, actual size 6023
+7 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (2428.00 336.00 204.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771026 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5267 texinfos to 3105
+Reduced 81 texdatas to 65 (2415 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7664, actual size 5708
+7 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (770144 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5269 texinfos to 3108
+Reduced 80 texdatas to 65 (2330 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7116, actual size 5294
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (1828.00 648.00 276.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (770128 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5269 texinfos to 3108
+Reduced 80 texdatas to 65 (2330 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7116, actual size 5294
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (3402.00 744.00 284.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (770144 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5269 texinfos to 3108
+Reduced 80 texdatas to 65 (2330 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7116, actual size 5294
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (2132.00 3412.00 72.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3350.0 1528.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 372827: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (770160 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5269 texinfos to 3108
+Reduced 80 texdatas to 65 (2330 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7116, actual size 5294
+7 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (3330.00 1840.00 -234.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (770679 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3109
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_spot (4296.00 2216.00 424.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771071 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3108
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_spot (4296.00 2216.00 424.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771055 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3108
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (4680.00 -284.00 156.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (771055 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5272 texinfos to 3106
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (4680.00 -284.00 156.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (772559 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5280 texinfos to 3106
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (4680.00 -284.00 156.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (772559 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5280 texinfos to 3106
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity item_healthkit_medium (2652.00 504.00 132.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (772543 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5280 texinfos to 3105
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (3296.00 2220.00 -20.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (772543 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5280 texinfos to 3105
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (3967.00 832.00 214.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 3072.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3584.0 76.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 76.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3112.0 1324.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3092.0 1276.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 1344.0 -140.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 438905: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (772543 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5280 texinfos to 3105
+Reduced 82 texdatas to 65 (2500 bytes to 1848)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 8212, actual size 6122
+6 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (771269 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5275 texinfos to 2874
+Reduced 80 texdatas to 62 (2328 bytes to 1748)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7110, actual size 5288
+8 seconds elapsed
+
+
+
+materialPath: F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_nautilus_a4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt...Building visibility clusters...
+done (1)
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_nightfall_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_nightfall_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (772368 bytes)
+Static prop models/props_moonbase/moon_handrail128_full.mdl outside the map (2741.00, 3295.00, -120.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (3714.00, 579.00, 655.00)
+Static prop models/props_lights/light_cone_farm_32.mdl outside the map (4087.00, 579.00, 655.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5277 texinfos to 2877
+Reduced 80 texdatas to 61 (2334 bytes to 1695)
+Writing F:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+Wrote ZIP buffer, estimated size 7110, actual size 5288
+10 seconds elapsed
+
+
+
+4 threads
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+reading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.prt
+3805 portalclusters
+12220 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 838581 visible clusters (11.11%)
+Total clusters visible: 7550658
+Average clusters visible: 1984
+Building PAS...
+Average clusters audible: 3639
+visdatasize:2948474  compressed from 3652800
+writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+12100 faces
+2 degenerate faces
+1014345 square feet [146065728.00 square inches]
+84 Displacements
+51852 Square Feet [7466829.00 Square Inches]
+12098 patches before subdivision
+134486 patches after subdivision
+136 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 21331485, max 830
+transfer lists: 162.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(310607, 341815, 238318)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(85327, 88435, 59677)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(24764, 24793, 16264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7336, 7099, 4546)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2227, 2089, 1309)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(688, 623, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(216, 189, 114)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(69, 58, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(23, 18, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0804 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes               1980/8192        23760/98304    (24.2%) 
+brushsides           15608/65536      124864/524288   (23.8%) 
+planes               10838/65536      216760/1310720  (16.5%) 
+vertexes             18575/65536      222900/786432   (28.3%) 
+nodes                 7366/65536      235712/2097152  (11.2%) 
+texinfos              2877/12288      207144/884736   (23.4%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos               84/0           14784/0        ( 0.0%) 
+disp_verts            6804/0          136080/0        ( 0.0%) 
+disp_tris            10752/0           21504/0        ( 0.0%) 
+disp_lmsamples      141056/0          141056/0        ( 0.0%) 
+faces                12100/65536      677600/3670016  (18.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5899/65536      330344/3670016  ( 9.0%) 
+leaves                7412/65536      237184/2097152  (11.3%) 
+leaffaces            14349/65536       28698/131072   (21.9%) 
+leafbrushes           6472/65536       12944/131072   ( 9.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            81019/512000     324076/2048000  (15.8%) 
+edges                46344/256000     185376/1024000  (18.1%) 
+LDR worldlights        136/8192        11968/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            899/32768        8990/327680   ( 2.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14526/65536       29052/131072   (22.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4449476/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     2948474/16777216 (17.6%) 
+entdata               [variable]      106559/393216   (27.1%) 
+LDR ambient table     7412/65536       29648/262144   (11.3%) 
+HDR ambient table     7412/65536       29648/262144   (11.3%) 
+LDR leaf ambient     35632/65536      997696/1835008  (54.4%) 
+HDR leaf ambient      7412/65536      207536/1835008  (11.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15134    ( 0.0%) 
+pakfile               [variable]        5288/0        ( 0.0%) 
+physics               [variable]      772368/4194304  (18.4%) 
+physics terrain       [variable]       22206/1048576  ( 2.1%) 
+
+Level flags = 0
+
+Total triangle count: 32722
+Writing f:\program files\steam\steamapps\common\team fortress 2\tf\maps\cp_nautilus\cp_nautilus_a4.bsp
+2 minutes, 53 seconds elapsed
